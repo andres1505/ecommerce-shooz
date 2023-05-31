@@ -1,13 +1,13 @@
 import Cuerpo from "./assets/componentes/cuerpo/cuerpo"
 import './App.css'
 import Catalogo from "./assets/componentes/catalogo/catalogo"
-
+import Header from "./assets/componentes/header/header"
 
 function App() {
   
   return (
     <>
-    <Cuerpo></Cuerpo>
+    <Header />
     <Catalogo />
     </>
   )
