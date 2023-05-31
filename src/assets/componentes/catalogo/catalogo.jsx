@@ -5,6 +5,26 @@ import red from "./imgs/redb.jpg";
 import tres from "./imgs/tres.jpg";
 import rosa from "./imgs/rosa.jpg";
 import baw from "./imgs/baw.jpg";
+import { useState, useEffect } from "react";
+
+function Card(){
+  const [data, setData] =  useState(null);
+  
+  useEffect(() => {
+    fetch()
+    .then((response) => response.json())
+    .then((data) => setData(data));
+
+  }, [])
+
+  return(
+    <>
+    
+    </>
+  );
+}
+
+
 
 function Catalogo() {
   return (
@@ -13,8 +33,9 @@ function Catalogo() {
         <div className={style.head}>
           <img className={style.head} src={baw} alt="" />
         </div>
-
+        <div className={style.for}><h2>FOR HIM</h2></div>
         <div className={style.contenedor}>
+          
           <div className={style.card}>
             <img
               className={style.img}
@@ -24,6 +45,8 @@ function Catalogo() {
             <div className={style.texto}>
               <h2>Nike Pegasus</h2>
               <p>$170</p>
+              <button className={style.cardbutton}>Add to cart</button>
+
             </div>
           </div>
           <div className={style.card}>
@@ -78,6 +101,7 @@ function Catalogo() {
           <img src={tres} alt="a small boat" />
           <img src={rosa} alt="a forest" />
         </div>
+        <div className={style.for}><h2>FOR HER</h2></div>
       <div className={style.contenedor}>
         <div className={style.card}>
           <img
