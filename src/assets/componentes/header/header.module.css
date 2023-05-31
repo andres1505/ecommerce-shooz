@@ -2,19 +2,18 @@
 
 .encabezado{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    background-color: fff;
-    margin: 1em 0;
+    background-color: #fff;
     height: 10rem;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 1000;
+    margin: 2rem;
 }
 
 .logo{
-    width: 10em;
-    height: 10em;
+    width: 10rem;
+    height: 10rem;
     padding: 1em;
 }
 .group {
@@ -22,7 +21,7 @@
     line-height: 28px;
     align-items: center;
     position: relative;
-    width: 20em;
+    width: 50vh;
    }
    
    .input {
