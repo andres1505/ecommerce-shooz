@@ -3,7 +3,7 @@
 *{
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
-
+  caret-color: transparent;
 
 }
 .main{
@@ -21,6 +21,10 @@
   justify-content: center;
   background-color: black;
   color: #fff;
+  width: 100%;
+}
+.h2{
+  backdrop-filter: blur(10px);
 }
 
 .contenedor{
@@ -28,6 +32,7 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 20px;
   justify-content: space-between;
 
 }
