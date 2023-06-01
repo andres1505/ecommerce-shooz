@@ -7,6 +7,8 @@ import rosa from "./imgs/rosa.jpg";
 import baw from "./imgs/baw.jpg";
 import { useState, useEffect } from "react";
 
+
+
 function Card(){
   const [data, setData] =  useState(null);
   
@@ -19,7 +21,7 @@ function Card(){
 
   return(
     <>
-    
+
     </>
   );
 }
