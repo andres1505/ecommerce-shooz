@@ -1,0 +1,46 @@
+.button {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .btntxt {
+
+    font-weight: 800;
+    letter-spacing: 4px;
+  }
+  .loginbox{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+
+  }
+  .userbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .label{
+    border-color: black;
+    display: flex;
+    justify-content: flex-start;  }
+
+
+
+  
+
+

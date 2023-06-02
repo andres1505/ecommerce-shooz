@@ -4,8 +4,7 @@ import Header from "./assets/componentes/header/header"
 import Footer from "./assets/componentes/Footer/footer"
 import Home from "./assets/componentes/home/home"
 import React from 'react';
-import Formulario from './assets/componentes/Formulario/Formulario'
-
+import MyForm from './assets/componentes/Formulario/form'
 
 
 function App() {
@@ -15,8 +14,9 @@ function App() {
     <Header />
     <Home />
     <Catalogo />
+    <MyForm/>
     <Footer/>
-    <Formulario/>
+
     </>
   )
 }
