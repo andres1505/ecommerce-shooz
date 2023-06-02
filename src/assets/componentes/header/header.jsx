@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./header.module.css";
 import logo from "./imgs/Shooz.png";
-import cart from "./imgs/cart.gif";
 
 const Header = () => {
   return (
@@ -27,9 +26,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button className={style.cart}>
-          <img src={cart} alt="" />
-        </button>
       </header>
     </>
   );
