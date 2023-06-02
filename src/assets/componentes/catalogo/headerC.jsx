@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const Header = ({
+export const HeaderC = ({
 	allProducts,
 	setAllProducts,
 	total,
@@ -27,8 +27,10 @@ export const Header = ({
 	};
 
 	return (
-		<header>
-			<h1>Tienda</h1>
+		<>
+		<h1 className='catalogo'>CATALOGO</h1>
+		<header className='header'>
+			
 
 			<div className='container-icon'>
 				<div
@@ -109,5 +111,6 @@ export const Header = ({
 				</div>
 			</div>
 		</header>
+		</>
 	);
 };

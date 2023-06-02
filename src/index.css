@@ -1,22 +1,31 @@
-/* Globales */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
 *::after,
 *::before,
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 body {
 	margin: 0 auto;
-	max-width: 1200px;
-	font-family: 'Lato';
-	color: #333;
+	color: black;
+}
+.catalogo{
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+	font-size: 5rem;
+	color: black;
 }
 
 .icon-cart {
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	stroke: #000;
 }
 
@@ -24,15 +33,13 @@ body {
 	cursor: pointer;
 }
 
-img {
-	max-width: 100%;
-}
 
+/*
 /* Header */
 header {
 	display: flex;
-	justify-content: space-between;
-	padding: 30px 0 40px 0;
+	justify-content: end;
+	padding: 30px;
 }
 
 .container-icon {
@@ -56,7 +63,7 @@ header {
 }
 
 #contador-productos {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .container-cart-products {
@@ -145,7 +152,7 @@ header {
 }
 
 .item:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 5 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .item img {
@@ -197,7 +204,7 @@ header {
 
 .btn-clear-all {
 	border: none;
-	background-color: #000;
+	background-color: black;
 	color: #fff;
 	padding: 15px 0;
 	display: block;
@@ -205,9 +212,8 @@ header {
 	margin-top: 10px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	font-family: inherit;
 	cursor: pointer;
-  font-size: 16px;
+  font-size: 22px;
   transition: all .3s ease;
 }
 

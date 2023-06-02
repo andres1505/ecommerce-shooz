@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  caret-color: transparent;
+
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}
+.head{
+  width: 100%;
+  height: 10em;
+}
+.for{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+}
+
+
+.cardbutton {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ .card:hover .cardbutton {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+.carta{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  object-fit: contain;
+ }
+
+.card{
+  width: 14em;
+  height: 30em;
+  background-color: fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  border-style: solid;
+  border: 1px solid white;
+  transition: all 0.5s;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  background: rgba(236, 236, 236, 0.58);
+}
+.card:hover {
+  border: .2px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.texto{
+  background-color: rgb(228, 228, 228);
+  color: black;
+  width: 100%;
+}
+.img{
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+  
+}
+
+
+
+
+

@@ -1,4 +1,5 @@
 import { data } from "./data"; 
+import style from './ProductList.module.css'
 
 export const ProductList = ({
 	allProducts,
@@ -26,20 +27,23 @@ export const ProductList = ({
 	};
 
 	return (
-		<div className='container-items'>
-			{data.map(product => (
-				<div className='item' key={product.id}>
-					<figure>
-						<img src={product.img} alt={product.nameProduct} />
-					</figure>
-					<div className='info-product'>
+		<div className={style.main}>
+			{data.map((product) => (
+				<div className={style.carta} key={product.id}>
+					<div className={style.card}>
+						<img className={style.img} src={product.img} alt={product.nameProduct} />
+					
+					
+					<div className={style.texto}>
 						<h2>{product.nameProduct}</h2>
-						<p className='price'>${product.price}</p>
-						<button onClick={() => onAddProduct(product)}>
+						<p>Precio:{product.price}</p>
+						<button className={style.cardbutton} onClick={() => onAddProduct(product)}>
 							Añadir al carrito
 						</button>
+						</div>
 					</div>
 				</div>
+			
 			))}
 		</div>
 	);
