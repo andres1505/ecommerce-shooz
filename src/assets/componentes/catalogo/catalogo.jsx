@@ -28,7 +28,7 @@ function Catalogo() {
         <img src={tres} alt="nike" />
         <img src={rosa} alt="nike" />
       </div>
-	  <div className={style.for1}><img className={style.for} src={banner} alt="banner" /></div>
+	  <div><img className={style.for} src={banner} alt="banner" /></div>
 	  <HeaderC
 				allProducts={allProducts}
 				setAllProducts={setAllProducts}

@@ -28,7 +28,6 @@ export const HeaderC = ({
 
 	return (
 		<>
-		<h1 className='catalogo'>CATALOGO</h1>
 		<header className='header'>
 			
 
