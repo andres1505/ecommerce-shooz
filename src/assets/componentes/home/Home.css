@@ -1,0 +1,78 @@
+.contenedor{
+    display: flex;  
+    justify-content: space-around;    
+    align-items: center;
+    height: 750px;
+    font-size: 3.5rem;    
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 56px;
+    padding-bottom: 26px;    
+}
+.titulo-tienda{
+    font-weight: bold;
+}
+.texto-tienda{
+    color: grey;
+}
+.titulo-secundario1{
+   text-align: center;
+   font-size: 5rem;
+}
+.titulo-secundario2{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+ 
+.imagenesFinal{    
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.imagen-final-1{
+   margin-right: 20px;
+}
+.imagen-final-2{
+    margin-left: 20px;
+}
+
+
+.imagen-final-1:hover{
+    height: 25.01rem;
+    cursor: pointer;
+    border: 5px solid #094293;
+}
+.imagen-final-2:hover{
+    height: 25.001rem;
+    cursor: pointer;
+    border: 5px solid #094293;
+}
+.Boton-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-final{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+.btn-final:hover{
+    padding: 25px 35px;
+    
+}
